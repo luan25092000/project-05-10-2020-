@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Work Sans', sans-serif;
+    box-sizing: border-box;
   }
   
   /* general css */
@@ -98,9 +99,7 @@
       border-radius: 27px;
       color:black;
       background-color: white;
-      -webkit-box-shadow: 2px 2px 3px 6px #ccc;
-      -moz-box-shadow:    2px 2px 5px 6px #ccc; 
-      box-shadow:         2px 2px 5px 6px #ccc; 
+      box-shadow: 4px 2px 8px 0 rgba(0,0,0,.41);
       font-size: 1.1rem;  
   }
   .element-button-partner-container:hover{
@@ -114,3 +113,53 @@
       justify-content: space-around;
       align-items: center;
   }
+  /* Projects */
+  .projects{
+    margin-top:5rem;
+  }
+  .project-card{
+    width:30%;
+    background-color:rgb(249,249,249);
+    display:flex;
+    align-items: center;
+    position: relative;
+    border:1px solid #eee;
+    flex-direction: column;
+    padding:6rem 1.5rem 4rem 1.5rem;
+    margin-top:3rem;
+  }
+  .thumbnail-projects{
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    border-radius: 500px;
+    box-shadow: 0 0 24px -4px rgba(0,0,0,.5);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    position: absolute;
+    top:-10%;
+  }
+  .title-projects{
+    font-weight: bold;
+    font-size:1.2rem;
+    margin-bottom:2rem;
+  }
+  .content-projects-details{
+    text-align: left;
+    font-size:1.2rem;
+    font-family: "Geomatriya",Sans-serif;
+  }
+  .end-project-card{
+    width:100%;
+    background-color:rgb(234,234,234);
+    position: absolute;
+    top:96%;
+    height:1.2rem;
+  }
+  /* div>.project-card:nth-child(2){
+      margin:0 1rem;
+  } */
