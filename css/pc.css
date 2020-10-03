@@ -505,3 +505,58 @@ navbar-toggler-icon {
   background-color: #0C0C0C;
   color: #eebf0d;
 }
+/* ???? feedbacks ??? */
+.content-feedbacks h2 {
+  font-weight: bold;
+  margin-top: 80px;
+}
+.content-feedbacks {
+  animation: gotoup;
+  animation-duration: 1s;
+}
+@keyframes gotoup {
+  from {transform: translateY(200px);
+        opacity: 0;}
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+.container-box-feedbacks {
+  padding: 10px;
+  height: auto;
+  margin: 100px 185px;
+  box-shadow: 0 0 10px rgba(0,0,0,.3);
+}
+.img-box-feedbacks {
+  width: 50%;
+  float: left;
+}
+.img-box-feedbacks img {
+  width: 75%;
+  border-radius: 30px 30px 30px 30px;
+  box-shadow: 0 0 32px -4px rgba(0,0,0,.5);
+  margin-top: -50px;
+}
+.text-box-feedbacks {
+  padding-right: 10px;
+  margin-top: 30px;
+  margin-bottom: 55px;
+  width: 50%;
+  float: left;
+
+}
+.text-box-feedbacks h2 {
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+.text-box-feedbacks p {
+  font-size: 1.025rem;
+  color: #ADB1B2;
+}
+.text-box-feedbacks span {
+  font-size: 1.1875rem;
+}
+.next-arr {
+  display: none;
+}

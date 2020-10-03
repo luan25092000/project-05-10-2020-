@@ -3,3 +3,12 @@
     margin-left: 20px;
     margin-right: 20px;
 }
+.container-feedbacks {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+}
+.container-box-feedbacks {
+    width: 100% !important;
+    margin-left: 0px;
+    margin-right: 0px;
+}
