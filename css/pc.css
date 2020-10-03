@@ -147,4 +147,57 @@ navbar-toggler-icon {
 .active-menu a {
   color: #eebf0d !important;
 }
+.custom-card-team {
+  text-align: center;
+  box-shadow: 4px 5px 20px 0 rgba(0, 0, 0, 0.24);
+}
+.custom-card-team h2 {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.custom-card-team h4 {
+  font-size: 1.1rem;
+}
+.custom-card-team img {
+  width: 75%;
+  height: auto;
+  border-radius: 400px;
+}
+.list-social-team {
+  font-size: 1rem;
+}
+.list-social-team a {
+  margin: 0 2px;
+  padding: 7px 5px;
+  border-radius: 100px;
+}
+.list-social-team a:nth-child(1) {
+  background-color: #0077b5;
+}
+.list-social-team a:nth-child(2) {
+  background-color: #2ea6e0;
+}
+.list-social-team a:nth-child(3) {
+  background-color: #818a91;
+}
+.list-social-team a i {
+  padding: 5px;
+  color: white;
+}
+.title-team {
+  text-align: center;
+  animation-name: appearTitle;
+  opacity: 0;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+}
 /* animation */
+@keyframes appearTitle {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
