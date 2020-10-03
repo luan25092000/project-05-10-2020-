@@ -484,7 +484,7 @@ navbar-toggler-icon {
 .container-box-services-1 h5 {
   text-align: center;
 }
-
+/* >>>> .services-2>>>>> */
 .services-2 {
   font-size: 1.1875rem;
 
@@ -493,6 +493,9 @@ navbar-toggler-icon {
   font-weight: bold;
 }
 .btn-services-2 {
+ 
+  animation: gotoup;
+  animation-duration: 3s;
   text-decoration: none;
   color: black;
   font-size: 1.0625rem;
@@ -506,6 +509,10 @@ navbar-toggler-icon {
 .btn-services-2:hover {
   background-color: #0C0C0C;
   color: #eebf0d;
+}
+.button-services {
+  margin-top: 100px !important;
+  margin-bottom: 100px !important;
 }
 /* ???? feedbacks ??? */
 .content-feedbacks h2 {
