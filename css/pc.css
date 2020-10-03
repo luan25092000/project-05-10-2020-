@@ -188,9 +188,68 @@ navbar-toggler-icon {
   text-align: center;
   animation-name: appearTitle;
   opacity: 0;
-  animation-duration: 2s;
+  animation-duration: 3s;
   animation-delay: 0.5s;
   animation-fill-mode: forwards;
+}
+.custom-card-blog {
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.26);
+}
+.custom-card-blog h3 {
+  padding: 5px 15px;
+  color: black;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.custom-card-blog h3:hover {
+  text-decoration: underline;
+}
+.custom-card-blog p {
+  padding: 5px 15px;
+  color: black;
+  font-size: 1rem;
+}
+.custom-btn-blog {
+  background: #eebf0d;
+  color: white;
+  padding: 10px 15px;
+  margin: 20px 10px;
+}
+.custom-btn-blog:focus {
+  box-shadow: none;
+}
+.custom-btn-blog:hover {
+  color: white;
+}
+.custom-card-blog:hover {
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.6);
+}
+.custom-card-blog .card-body {
+  padding: 0 !important;
+}
+.animation-growup {
+  animation-name: growup;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+.custom-blog-detail {
+  line-height: 1.7;
+  text-indent: 10px;
+}
+.custom-blog-detail h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.custom-blog-detail h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.custom-blog-detail p,
+.custom-blog-detail ul {
+  font-size: 1.2rem;
+}
+.custom-blog-detail ul {
+  margin: 0 20px;
 }
 /* animation */
 @keyframes appearTitle {
@@ -199,5 +258,13 @@ navbar-toggler-icon {
   }
   to {
     opacity: 1;
+  }
+}
+@keyframes growup {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0%);
   }
 }
