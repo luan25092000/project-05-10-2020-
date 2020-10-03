@@ -418,3 +418,90 @@ navbar-toggler-icon {
 /* div>.project-card:nth-child(2){
     margin:0 1rem;
 } */
+/* ????? của Tô ???? */
+/* ??? services ?? */
+.content-services {
+  margin-left: 125px;
+  margin-right: 125px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center ;
+}
+.elementor-services {
+  margin-top: 40px;
+}
+.elementor-services a {
+  text-decoration: none;
+  color: #F3CB53;
+}
+.container-box-services {
+  width: 33.3%;
+  padding: 20px 10px;
+}
+.box-services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 300px;
+  border-radius: 5px;
+  padding: 20px 7px 20px 7px;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,.12);
+}
+.box-services .img-services img {
+  width: 70px;
+  height: 70px;
+}
+.box-services a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.0625rem;
+  border: 0px solid rgba(226,226,226,0);;
+  background-color: rgba(0,85,142,0);
+  border-radius: 50px 50px 50px 50px;
+  padding: 19px 55px 19px 55px;
+  box-shadow: 4px 2px 8px 0 rgba(0,0,0,.41);
+  transition: 0.4s;
+}
+.box-services h5 {
+  font-weight: 400;
+  font-size: 1.125rem;
+}
+
+.box-services a:hover {
+  background-color: #0C0C0C;
+  color: #eebf0d;
+}
+
+
+/* ???? services-1 ??? */
+.container-box-services-1 {
+  width: 25%;
+  padding: 20px 10px;
+}
+.container-box-services-1 h5 {
+  text-align: center;
+}
+
+.services-2 {
+  font-size: 1.1875rem;
+
+}
+.services-2 h2 {
+  font-weight: bold;
+}
+.btn-services-2 {
+  text-decoration: none;
+  color: black;
+  font-size: 1.0625rem;
+  border: 0px solid rgba(226,226,226,0);;
+  background-color: rgba(0,85,142,0);
+  border-radius: 50px 50px 50px 50px;
+  padding: 19px 55px 19px 55px;
+  box-shadow: 4px 2px 8px 0 rgba(0,0,0,.41);
+  transition: 0.4s;
+}
+.btn-services-2:hover {
+  background-color: #0C0C0C;
+  color: #eebf0d;
+}

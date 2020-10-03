@@ -1,1 +1,11 @@
 /*độ rộng nhỏ hơn 768px*/
+.content-services {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.container-box-services {
+    width: 100%;
+}
+.container-box-services-1 {
+    width: 100%;
+}
