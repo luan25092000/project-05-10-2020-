@@ -560,3 +560,22 @@ navbar-toggler-icon {
 .next-arr {
   display: none;
 }
+.btn-feedbacks {
+  text-decoration: none;
+  color: black;
+  font-size: 1.0625rem;
+  border: 0px solid rgba(226,226,226,0);;
+  background-color: rgba(0,85,142,0);
+  border-radius: 50px 50px 50px 50px;
+  padding: 19px 55px 19px 55px;
+  box-shadow: 4px 2px 8px 0 rgba(0,0,0,.41);
+  transition: 0.4s;
+}
+.btn-feedbacks:hover {
+  background-color: #0C0C0C;
+  color: #eebf0d;
+}
+.text-center-feedbacks {
+  margin-top: 100px !important;
+  margin-bottom: 100px !important;
+}
