@@ -144,6 +144,24 @@ navbar-toggler-icon {
   justify-content: space-around;
   align-items: center;
 }
+.form-partner{
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.name,.email,.telegram{
+  padding:1rem;
+  border:none;
+  outline: none;
+  border-bottom: 1px solid #E3E3E3;
+}
+.close{
+  display: flex;
+  justify-content: flex-end;
+}
+.modal-header{
+  border:none;
+}
 .active-menu a {
   color: #eebf0d !important;
 }
@@ -419,7 +437,6 @@ navbar-toggler-icon {
 .wrap-contacts {
   width: 100%;
   height: 100%;
-  position: relative;
 }
 .background-header {
   background-image: url('../img/background-header.jpg');
@@ -440,6 +457,73 @@ navbar-toggler-icon {
   top: 33%;
   left: 35%;
 }
+.wrap-content-contacts{
+  width:100%;
+  display:flex;
+}
+.container-content-contacts-1{
+width:60%;
+}
+.container-content-contacts-2{
+  width:40%;
+}
+.container-content-contacts-1 > p{
+  font-size:1.2rem;
+}
+.container-content-contacts-child{
+  width:100%;
+  background-color: white;
+  box-shadow: 4px 2px 8px 0 rgba(0, 0, 0, 0.41);
+  border-radius: 10px;
+}
+.element-button-contacts-container {
+  width: 14rem;
+  height: 4rem;
+  padding: 1rem 2.5rem 1rem 2.5rem;
+  border-radius: 27px;
+  color: black;
+  background-color: white;
+  box-shadow: 4px 2px 8px 0 rgba(0, 0, 0, 0.41);
+  font-size: 1.1rem;
+}
+.element-button-contacts-container:hover {
+  text-decoration: none;
+  background-color: black;
+  color: yellow;
+  transition: linear 0.3s;
+}
+.element-form-contacts{
+  display: flex;
+  flex-direction: column;
+  width:100%;
+}
+.element-field-label{
+  cursor: pointer;
+  font-weight: bold;
+}
+.form-contacts{
+  padding:1rem;
+}
+.element-field{
+  padding:1.2rem;
+  border:1px solid #E0E0E0;
+  outline: none;
+}
+.button-contacts-group{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button-contacts-request{
+  width:80%;
+  outline: none;
+  border: none;
+  background-color:#E8A60C;
+  color:white;
+  padding:1.2rem;
+  border-radius: 27px;
+  font-size: 1.2rem;
+}
 /* ????? của Tô ???? */
 /* ??? services ?? */
 .content-services {
@@ -447,7 +531,7 @@ navbar-toggler-icon {
   margin-right: 125px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
 }
 .elementor-services {
   margin-top: 40px;

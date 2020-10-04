@@ -54,6 +54,7 @@
         </div>
     </nav>
 </header>
+
 <body>
     <div class="container mt-5 mb-5">
         <h2 class="title-partner">WE EXPAND OUR PARTNER’S NETWORK</h2>
@@ -75,13 +76,37 @@
             communities,<br>
             Get in touch with us!
         </p>
-        <div class="button-partner mt-5 mb-5">
+        <div class="button-partner mt-5 mb-5" data-toggle="modal" data-target="#form">
             <a href="#" class="element-button-partner-container">
                 <span class="element-button-partner-container-inner">
                     <span><i class="fas fa-caret-right"></i></span>
                     <span>Find our more</span>
                 </span>
             </a>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div id="form" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-dialog-centered">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="container">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-partner">
+                            <input type="text" placeholder="Name" class="name"/>
+                            <input type="text" placeholder="E-mail" class="email"/>
+                            <input type="text" placeholder="Telegram Login or Telephone number" class="telegram"/>
+                            <div class="button-contacts-group mt-3 mb-3">
+                                <button class="button-contacts-request">SEND US A REQUEST</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
     <!--scripts loaded here-->
@@ -138,11 +163,12 @@
         </div>
         <div class="leadia-science-wallet">
             <a href="#">
-              <img src="./img/profile.png" alt="" />
-              <p class="no-mr"><b>John</b></p>
-              <p class="no-mr">I will help you with promotion</p>
+                <img src="./img/profile.png" alt="" />
+                <p class="no-mr"><b>John</b></p>
+                <p class="no-mr">I will help you with promotion</p>
             </a>
-          </div>
+        </div>
     </div>
 </footer>
+
 </html>
