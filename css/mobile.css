@@ -1,1 +1,29 @@
 /*độ rộng nhỏ hơn 768px*/
+.content-services {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.container-box-services {
+    width: 100%;
+}
+.container-box-services-1 {
+    width: 100%;
+}
+.container-feedbacks {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+}
+.container-box-feedbacks {
+    width: 100% !important;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.img-box-feedbacks {
+    width: 100%;
+}
+.text-box-feedbacks {
+    width: 100%;
+}
+.next-arr {
+    display: block;
+  }
