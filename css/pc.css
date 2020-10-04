@@ -369,19 +369,19 @@ navbar-toggler-icon {
   align-items: center;
 }
 /* Projects */
-.projects{
-  margin:5rem 0 8rem 0;
+.projects {
+  margin: 5rem 0 8rem 0;
 }
-.project-card{
-  background-color:rgb(249,249,249);
-  display:flex;
+.project-card {
+  background-color: rgb(249, 249, 249);
+  display: flex;
   align-items: center;
   position: relative;
   border: 1px solid #eee;
   flex-direction: column;
-  padding:6rem 2rem 4rem 2rem;
-  margin-top:3rem;
-  height:88%;
+  padding: 6rem 2rem 4rem 2rem;
+  margin-top: 3rem;
+  height: 88%;
 }
 .thumbnail-projects {
   width: 120px;
@@ -400,8 +400,8 @@ navbar-toggler-icon {
 }
 .title-projects {
   font-weight: bold;
-  font-size:1.1;
-  margin-bottom:2rem;
+  font-size: 1.1;
+  margin-bottom: 2rem;
 }
 .content-projects-details {
   text-align: left;
@@ -416,29 +416,29 @@ navbar-toggler-icon {
   height: 1.2rem;
 }
 /* Contacts */
-.wrap-contacts{
+.wrap-contacts {
   width: 100%;
   height: 100%;
   position: relative;
 }
-.background-header{
-  background-image: url("../img/background-header.jpg");
+.background-header {
+  background-image: url('../img/background-header.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color:#fff;
-  height:15rem;
+  background-color: #fff;
+  height: 15rem;
   filter: brightness(20%);
 }
-.title-contacts{
+.title-contacts {
   font-size: 3.5rem;
-  font-family: "Geomatriya",Sans-serif;
+  font-family: 'Geomatriya', Sans-serif;
   font-weight: bold;
   text-align: center;
   position: absolute;
   color: white;
-  top:33%;
-  left:35%;
+  top: 33%;
+  left: 35%;
 }
 /* ????? của Tô ???? */
 /* ??? services ?? */
@@ -495,7 +495,7 @@ navbar-toggler-icon {
   color: #eebf0d;
 }
 .box-services :hover {
-  box-shadow: #CCCCCC 1px 1px 8px 2px; 
+  box-shadow: #cccccc 1px 1px 8px 2px;
 }
 /* ???? services-1 ??? */
 .container-box-services-1 {
@@ -613,7 +613,6 @@ navbar-toggler-icon {
   background-color: black;
   padding-bottom: 100px;
   padding-top: 50px;
-
 }
 .background-img-victor h1 {
   color: white;
@@ -640,7 +639,7 @@ a.btn-victor-services {
   text-decoration: none;
   color: black;
   border: 0px solid rgba(226, 226, 226, 0);
-  background-color: #FFEA00 ;
+  background-color: #ffea00;
   border-radius: 50px 50px 50px 50px;
   padding: 19px 55px 19px 55px;
   box-shadow: 4px 5px 8px 2px #484848;
@@ -653,32 +652,30 @@ a.btn-victor-services {
 }
 .element-victor-services {
   display: flex;
-  flex-direction: row ;
+  flex-direction: row;
   width: 100%;
   height: auto;
   padding: 20px;
-  background-color: #E8E8E8;
+  background-color: #e8e8e8;
   align-items: center;
   align-content: center;
 }
 .element-victor-services-col {
   width: 50%;
-  padding-top: 40px;
-  padding-bottom: 50px;
+  padding: 50px 50px;
 }
-.element-victor-services-col h1{
+.element-victor-services-col h1 {
   font-size: 2rem;
   font-weight: bold;
-
 }
 .element-victor-services-col p {
   font-size: 1.125rem;
-  letter-spacing: .3px;
+  letter-spacing: 0.3px;
 }
 .content-element-victor-services {
   width: 100%;
   display: flex;
-  flex-wrap: wrap ;
+  flex-wrap: wrap;
 }
 .titel-body-victor {
   padding-top: 50px;
@@ -703,5 +700,86 @@ h3.titel-body-victor {
 }
 .card-victor-services p strong {
   font-weight: 700;
-
+}
+.elementor-vitor .button-victor-services a {
+  font-size: 1.2rem;
+}
+.elementor-vitor {
+  background-color: #bdbdbd;
+  padding: 120px 0;
+  text-align: left;
+}
+.elementor-vitor h1 {
+  font-size: 1.8rem;
+  font-weight: 800;
+}
+.devider-border {
+  width: 20%;
+  border-bottom: 2px solid #eebf0d;
+  margin: 20px 0;
+}
+.elementor-vitor p {
+  font-size: 1.2rem;
+}
+.step-to-success-vitor {
+  padding: 0 10px 0 40px;
+}
+.step-to-success-vitor ul {
+  list-style: none;
+  font-size: 1.2rem;
+}
+.step-to-success-vitor ul li i {
+  font-size: 1rem;
+  color: #eebf0d;
+}
+.step-to-success-vitor h1 {
+  font-size: 33px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.6em;
+}
+.step-to-success-vitor h3 {
+  padding-bottom: 30px;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.step-to-success-vitor p {
+  font-size: 1.3rem;
+}
+.custom-button-findout {
+  border: none;
+  outline: none;
+  background-color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 10px 0;
+  transition: 0.4s;
+  border-bottom: 1px solid black;
+}
+.custom-button-findout:hover {
+  color: #eebf0d;
+  transition: 0.4s;
+  border-bottom: 1px solid #eebf0d;
+}
+.animate-goup {
+  animation-name: goupAnimate;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+.animate-appear {
+  animation-name: appearTitle;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+@keyframes goupAnimate {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+    visibility: hidden;
+  }
+  to {
+    transform: translateY(0%);
+    opacity: 1;
+    visibility: visible;
+  }
 }
