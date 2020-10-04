@@ -26,4 +26,20 @@
 }
 .next-arr {
     display: block;
-  }
+}
+.element-victor-services {
+    display: flex;
+    flex-direction: column ;
+    padding-bottom: 50px;
+}
+.element-victor-services-col {
+    width: 100%;
+    padding: 0px;
+    margin: 10px 0 0 0 ;
+}
+.card-victor-services {
+    width: 100%;
+}
+.card-victor-services img {
+    margin-bottom: 20px;
+}

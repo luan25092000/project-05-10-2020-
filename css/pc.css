@@ -608,3 +608,100 @@ navbar-toggler-icon {
   margin-top: 100px !important;
   margin-bottom: 100px !important;
 }
+/* ????? victor-services???? */
+.background-img-victor {
+  background-color: black;
+  padding-bottom: 100px;
+  padding-top: 50px;
+
+}
+.background-img-victor h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+.background-img-victor h2 {
+  color: white;
+  font-weight: 500;
+}
+.background-img-victor h2 span {
+  color: #eebf0d;
+}
+.img-box-victor-services img {
+  width: 30%;
+}
+.button-victor-services {
+  margin-top: 50px;
+}
+a.btn-victor-services {
+  font-size: 1.7rem;
+}
+.btn-victor-services {
+  text-decoration: none;
+  color: black;
+  border: 0px solid rgba(226, 226, 226, 0);
+  background-color: #FFEA00 ;
+  border-radius: 50px 50px 50px 50px;
+  padding: 19px 55px 19px 55px;
+  box-shadow: 4px 5px 8px 2px #484848;
+  transition: 0.4s;
+}
+
+.btn-victor-services:hover {
+  background-color: #0c0c0c;
+  color: yellow;
+}
+.element-victor-services {
+  display: flex;
+  flex-direction: row ;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  background-color: #E8E8E8;
+  align-items: center;
+  align-content: center;
+}
+.element-victor-services-col {
+  width: 50%;
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+.element-victor-services-col h1{
+  font-size: 2rem;
+  font-weight: bold;
+
+}
+.element-victor-services-col p {
+  font-size: 1.125rem;
+  letter-spacing: .3px;
+}
+.content-element-victor-services {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap ;
+}
+.titel-body-victor {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+}
+h3.titel-body-victor {
+  font-weight: bold;
+  font-size: 2rem;
+}
+.card-victor-services {
+  padding-top: 50px;
+  width: 20%;
+  margin-bottom: 10px;
+}
+.card-victor-services img {
+  width: 30%;
+  margin-bottom: 10px;
+}
+.card-victor-services p {
+  font-size: 1.3rem;
+}
+.card-victor-services p strong {
+  font-weight: 700;
+
+}
