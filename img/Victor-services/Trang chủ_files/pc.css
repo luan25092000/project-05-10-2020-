@@ -630,9 +630,7 @@ navbar-toggler-icon {
   width: 30%;
 }
 .button-victor-services {
-  font-size: 1.2rem !important;
   margin-top: 50px;
-  margin-bottom: 100px;
 }
 a.btn-victor-services {
   font-size: 1.7rem;
@@ -832,44 +830,7 @@ h3.titel-body-victor {
   align-content: space-between;
   flex-direction: column;
 }
-.container-box-victor {
-  padding: 10px;
-  position: relative;
-  height: 454px;
-  margin: 100px 185px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-}
-.slide-victor {
-  position: relative;
-}
-.arr-next-victor {
-  position: absolute;
-  right: 150px !important;
-  bottom: -350px;
-  color: yellow !important;
-}
-.arr-pre-victor {
-  color: yellow!important;
-  position: absolute;
-  left: 150px !important;
-  bottom: -350px;
-}
-.btn-victor-services-3 {
-  text-decoration: none;
-  color: black;
-  border: 0px solid rgba(226, 226, 226, 0);
-  background-color: white !important;
-  border-radius: 50px 50px 50px 50px;
-  padding: 19px 55px 19px 55px;
-  box-shadow: 4px 5px 8px 2px #484848;
-  transition: 0.4s;
-}
-.btn-victor-services-3:hover {
-
-  color: yellow;
-  background-color: black !important;
-}
-.title-element-1-victor {
-  font-size: 2.5rem;
-  font-weight: bold;
+.container-box-victor  {
+  margin-left: 185px !important;
+  margin-right: 185px !important;
 }

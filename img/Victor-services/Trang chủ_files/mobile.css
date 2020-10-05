@@ -13,13 +13,10 @@
     margin-left: 10px !important;
     margin-right: 10px !important;
 }
-.container-box-feedbacks , .container-box-victor {
+.container-box-feedbacks {
     width: 100% !important;
-    margin-left: 5px;
-    margin-right: 5px;
-}
-.container-box-victor {
-    height: 910px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 .img-box-feedbacks {
     width: 100%;
@@ -45,21 +42,4 @@
 }
 .card-victor-services img {
     margin-bottom: 20px;
-}
-.arr-next-victor {
-    right: 10px !important;
-    bottom: -600px;
-}
-.arr-pre-victor {
-    left: 10px !important;
-    bottom: -600px;
-}
-.container-box-victor {
-    height: 700px;
-}
-.background-img-victor h1,.background-img-victor h2,.background-img-victor h3 {
-    font-size: 1.6rem;
-}
-.btn-victor-services {
-    font-size: 1.3rem !important;
 }
