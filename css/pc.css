@@ -580,7 +580,7 @@ width:60%;
   background-color: #0c0c0c;
   color: #eebf0d;
 }
-.box-services :hover {
+.box-services:hover {
   box-shadow: #cccccc 1px 1px 8px 2px;
 }
 /* ???? services-1 ??? */
