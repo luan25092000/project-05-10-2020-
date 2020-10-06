@@ -63,3 +63,26 @@
 .btn-victor-services {
     font-size: 1.3rem !important;
 }
+/* Contacts */
+.title-contacts{
+    font-size:2.5rem;
+    left:21%;
+}
+.wrap-content-contacts {
+    width: 100%;
+    display:block;
+}
+.container-content-contacts-1,.container-content-contacts-2{
+    width:100%;
+}
+.element-button-contacts-container {
+    margin-left: 25%;
+    width: 14rem;
+    height: 4rem;
+    padding: 1rem 2.5rem 1rem 2.5rem;
+    border-radius: 27px;
+    color: black;
+    background-color: white;
+    box-shadow: 4px 2px 8px 0 rgba(0, 0, 0, 0.41);
+    font-size: 1.1rem;
+}

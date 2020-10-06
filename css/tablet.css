@@ -16,3 +16,24 @@
     margin-left: 5px;
     margin-right: 5px;
 }
+/* Contacts */
+.title-contacts {
+    font-size: 3.5rem;
+    font-family: 'Geomatriya', Sans-serif;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    color: white;
+    top: 16%;
+    left: 28%;
+}
+.button-contacts-request {
+    width: 80%;
+    outline: none;
+    border: none;
+    background-color: #E8A60C;
+    color: white;
+    padding: 1.2rem;
+    border-radius: 27px;
+    font-size: 0.8rem;
+}
