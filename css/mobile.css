@@ -48,11 +48,11 @@
 }
 .arr-next-victor {
     right: 10px !important;
-    bottom: -600px;
+    bottom: -70%;
 }
 .arr-pre-victor {
     left: 10px !important;
-    bottom: -600px;
+    bottom: -70%;
 }
 .container-box-victor {
     height: 800px;
