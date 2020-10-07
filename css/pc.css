@@ -673,7 +673,7 @@ navbar-toggler-icon {
   color: #adb1b2;
 }
 .text-box-feedbacks span {
-  font-size: 1.1875rem;
+  font-size: 0.9rem;
 }
 .next-arr {
   display: none;
@@ -925,8 +925,9 @@ h3.titel-body-victor {
 .container-box-victor {
   padding: 10px;
   position: relative;
-  height: 454px;
+  height: auto;
   margin: 100px 185px;
+  padding: 70px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 .container-box-victor {
@@ -967,4 +968,7 @@ h3.titel-body-victor {
 }
 .navbar {
   padding: 0 !important;
+}
+.fa-3x {
+  font-size: 2rem;
 }

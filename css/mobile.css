@@ -56,7 +56,7 @@
   bottom: -70%;
 }
 .container-box-victor {
-  height: 800px;
+  height: auto;
 }
 .background-img-victor h1,
 .background-img-victor h2,
@@ -102,4 +102,8 @@
 .elementor-services {
   overflow: hidden;
   width: 100%;
+}
+.container-box-victor {
+  margin: 100px 0;
+  height: auto;
 }
