@@ -13,7 +13,8 @@
     margin-left: 10px !important;
     margin-right: 10px !important;
 }
-.container-box-feedbacks , .container-box-victor {
+.container-box-feedbacks,
+.container-box-victor {
     width: 100% !important;
     margin-left: 5px;
     margin-right: 5px;
@@ -32,13 +33,13 @@
 }
 .element-victor-services {
     display: flex;
-    flex-direction: column ;
+    flex-direction: column;
     padding-bottom: 50px;
 }
 .element-victor-services-col {
     width: 100%;
     padding: 0px;
-    margin: 10px 0 0 0 ;
+    margin: 10px 0 0 0;
 }
 .card-victor-services {
     width: 100%;
@@ -57,23 +58,26 @@
 .container-box-victor {
     height: 800px;
 }
-.background-img-victor h1,.background-img-victor h2,.background-img-victor h3 {
+.background-img-victor h1,
+.background-img-victor h2,
+.background-img-victor h3 {
     font-size: 1.6rem;
 }
 .btn-victor-services {
     font-size: 1rem !important;
 }
 /* Contacts */
-.title-contacts{
-    font-size:2.5rem;
-    left:21%;
+.title-contacts {
+    font-size: 2.5rem;
+    left: 21%;
 }
 .wrap-content-contacts {
     width: 100%;
-    display:block;
+    display: block;
 }
-.container-content-contacts-1,.container-content-contacts-2{
-    width:100%;
+.container-content-contacts-1,
+.container-content-contacts-2 {
+    width: 100%;
 }
 .element-button-contacts-container {
     margin-left: 25%;
@@ -85,4 +89,8 @@
     background-color: white;
     box-shadow: 4px 2px 8px 0 rgba(0, 0, 0, 0.41);
     font-size: 1.1rem;
+}
+.button-contacts-request {
+    padding: 10px;
+    font-size: 1rem;
 }
