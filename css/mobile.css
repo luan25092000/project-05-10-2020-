@@ -1,112 +1,105 @@
 /*độ rộng nhỏ hơn 768px*/
 .content-services {
-    margin-left: 20px;
-    margin-right: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 .container-box-services {
-    width: 100%;
+  width: 100%;
 }
 .container-box-services-1 {
-    width: 100%;
+  width: 100%;
 }
 .container-feedbacks {
-    margin-left: 10px !important;
-    margin-right: 10px !important;
+  margin-left: 10px !important;
+  margin-right: 10px !important;
 }
 .container-box-feedbacks,
 .container-box-victor {
-    width: 100% !important;
-    margin-left: 5px;
-    margin-right: 5px;
+  width: 100% !important;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 .container-box-victor {
-    height: 910px;
+  height: 910px;
 }
 .img-box-feedbacks {
-    width: 100%;
+  width: 100%;
 }
 .text-box-feedbacks {
-    width: 100%;
+  width: 100%;
 }
 .next-arr {
-    display: block;
+  display: block;
 }
 .element-victor-services {
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 50px;
 }
 .element-victor-services-col {
-    width: 100%;
-    padding: 0px;
-    margin: 10px 0 0 0;
+  width: 100%;
+  padding: 0px;
+  margin: 10px 0 0 0;
 }
 .card-victor-services {
-    width: 100%;
+  width: 100%;
 }
 .card-victor-services img {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 .arr-next-victor {
-    right: 10px !important;
-    bottom: -70%;
+  right: 10px !important;
+  bottom: -70%;
 }
 .arr-pre-victor {
-    left: 10px !important;
-    bottom: -70%;
+  left: 10px !important;
+  bottom: -70%;
 }
 .container-box-victor {
-    height: 800px;
+  height: 800px;
 }
 .background-img-victor h1,
 .background-img-victor h2,
 .background-img-victor h3 {
-    font-size: 1.6rem;
+  font-size: 1.6rem;
 }
 .btn-victor-services {
-    font-size: 1rem !important;
+  font-size: 1rem !important;
 }
 /* Contacts */
 .title-contacts {
-    font-size: 2.5rem;
-    left: 21%;
+  font-size: 2.5rem;
+  left: 21%;
 }
 .wrap-content-contacts {
-    width: 100%;
-    display: block;
+  width: 100%;
+  display: block;
 }
 .container-content-contacts-1,
 .container-content-contacts-2 {
-    width: 100%;
+  width: 100%;
 }
 .element-button-contacts-container {
-    margin-left: 25%;
-    width: 14rem;
-    height: 4rem;
-    padding: 1rem 2.5rem 1rem 2.5rem;
-    border-radius: 27px;
-    color: black;
-    background-color: white;
-    box-shadow: 4px 2px 8px 0 rgba(0, 0, 0, 0.41);
-    font-size: 1.1rem;
+  margin-left: 25%;
+  width: 14rem;
+  height: 4rem;
+  padding: 1rem 2.5rem 1rem 2.5rem;
+  border-radius: 27px;
+  color: black;
+  background-color: white;
+  box-shadow: 4px 2px 8px 0 rgba(0, 0, 0, 0.41);
+  font-size: 1.1rem;
 }
-<<<<<<< HEAD
 .button-contacts-request {
-    padding: 10px;
-    font-size: 1rem;
+  padding: 10px;
+  font-size: 1rem;
 }
-=======
-.btn-feedbacks, .btn-services-2{
-    font-size: 0.7rem !important;
-}
-.services-2 h2 {
-    white-space: normal;
-    word-break: break-all;
+.btn-feedbacks,
+.btn-services-2 {
+  font-size: 0.7rem !important;
 }
 
 .elementor-services {
-    white-space: normal;
-    word-break: break-all;
-    width: 100%;
+  overflow: hidden;
+  width: 100%;
 }
->>>>>>> fc9b756eaab99ef6b8ea58f185c3f2f8bd77579f
