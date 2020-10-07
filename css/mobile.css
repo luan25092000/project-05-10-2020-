@@ -90,7 +90,18 @@
     box-shadow: 4px 2px 8px 0 rgba(0, 0, 0, 0.41);
     font-size: 1.1rem;
 }
+<<<<<<< HEAD
 .button-contacts-request {
     padding: 10px;
     font-size: 1rem;
 }
+=======
+.btn-feedbacks, .btn-services-2{
+    font-size: 0.7rem !important;
+}
+
+.elementor-services {
+    overflow: hidden;
+    width: 100%;
+}
+>>>>>>> fc9b756eaab99ef6b8ea58f185c3f2f8bd77579f
