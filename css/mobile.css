@@ -107,3 +107,7 @@
   margin: 100px 0;
   height: auto;
 }
+.btn-victor-services ,.btn-victor-services-3 {
+    font-size: 0.7rem !important;
+    padding: 15px 30px 15px 30px;
+}

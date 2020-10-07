@@ -972,3 +972,8 @@ h3.titel-body-victor {
 .fa-3x {
   font-size: 2rem;
 }
+@media (max-width:300px) {
+  .background-img-victor h1, .background-img-victor h2 {
+    font-size: 1.1rem !important;
+  }
+}
