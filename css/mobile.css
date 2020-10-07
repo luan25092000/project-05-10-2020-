@@ -99,9 +99,14 @@
 .btn-feedbacks, .btn-services-2{
     font-size: 0.7rem !important;
 }
+.services-2 h2 {
+    white-space: normal;
+    word-break: break-all;
+}
 
 .elementor-services {
-    overflow: hidden;
+    white-space: normal;
+    word-break: break-all;
     width: 100%;
 }
 >>>>>>> fc9b756eaab99ef6b8ea58f185c3f2f8bd77579f
